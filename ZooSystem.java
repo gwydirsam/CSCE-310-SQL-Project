@@ -5,15 +5,6 @@ public class ZooSystem {
   static final String _url = "jdbc:mysql://database-new.cs.tamu.edu:3306/glisti-ZooSystem";
   static Connection conn = null;
 
-  public ZooSystem {
-    try {
-      conn = connect("glisti", "G5m16l92");
-    }
-    catch (Exception e) {
-      e.printStackTrace();
-    }
-  }
-
   public static void main(String[] argv) {
     try {
       conn = connect("glisti", "G5m16l92");
